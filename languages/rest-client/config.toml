@@ -1,0 +1,4 @@
+name = "REST HTTP request files"
+grammar = "HTTP"
+path_suffixes = ["http"]
+line_comments = ["# "]

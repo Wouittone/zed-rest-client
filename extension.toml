@@ -1,7 +1,11 @@
-id = "zed-rest-client"
+id = "rest-client"
 name = "REST client"
 version = "0.0.1"
 schema_version = 1
 authors = ["Grégoire Baranger <gregbaranger@msn.com>"]
 description = "A basic REST client for Zed using `.http` files and runnable actions"
 repository = "https://github.com/Wouittone/zed-rest-client"
+
+[grammars.rest-client]
+repository = "https://github.com/rest-nvim/tree-sitter-http"
+commit = "b88cd0c7dba0128b8f28fcb25cca13eea0d193b3"
